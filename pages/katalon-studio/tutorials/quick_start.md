@@ -2,35 +2,35 @@
 title: "Quick Start"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/quick_start.html
-description: "A quick guide to set up and start your first automation test with Katalon Studio that helps you start automation testing on web and mobile in no times."
+description: "A quick guide to set up and begin your first automation test with Katalon Studio that helps you start automation testing on web and mobile in no time."
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/Q80JTXYIteU?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
-**A quick guide to set up and start your first automation test with Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. You now can start automation testing on web &**** mobile with the least efforts and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
+**A quick guide to set up and start your first automation test with Katalon Studio, a complete test automation tool built on the top of Selenium and Appium. You now can start automation testing on web &**** mobile with the least amount of effort and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
 
 **Read full guideline [here.](/x/l4Ei)**
 
 ### Introduction
 
-This Getting Started Guide gives you a quick introduction to Katalon Studio, from downloading to activation and running your first automation test.
+Our Quick Start Guide gives you an introduction to Katalon Studio, from downloading to activation and running your first automation test.
 
 ### Download Katalon Studio
 
-Katalon Studio is available for free, supporting both Windows and Mac. Visit [Katalon Studio website](https://www.katalon.com/) to download the latest version.
+Katalon Studio is available for free and supports both Windows and Mac. Visit [Katalon Studio website](https://www.katalon.com/) to download the latest version.
 
 ### Environment Configuration
 
-First you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
+First, you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
 
-- If you do **Web UI** testing, then no additional settings are needed except making sure the required browsers are installed. Check [this list](/x/dAAM) for all supported browsers.
+- If you do **Web UI** testing, no additional settings are needed except to ensure the required browsers are installed. Check [this list](/x/dAAM) for all supported browsers.
 
-- In case of **Mobile** testing, you need to install **Node.js, Appium** and enable **USB Debugging mode** on your device first. Please refer to [Installation Guide](http://docs.katalon.com/display/KD/Installation+and+Setup) for more details.
+- In case of **Mobile** testing, you need to install **Node.js, Appium** and enable **USB Debugging mode** on your device before beginning. Please refer to [Installation Guide](http://docs.katalon.com/display/KD/Installation+and+Setup) for more details.
 
 ### Start Katalon Studio
 
 To start Katalon Studio, double-click on the **katalon.exe** (Microsoft Windows) or **katalon** (Mac) file in the directory where you unpack Katalon Studio.
 
-Once started, the application should display a splash screen.
+Once starting, the application should display a splash screen.
 
 ### Activate Katalon Build
 
@@ -56,21 +56,21 @@ A new project will be generated at specified location.
 
 –  A new test case will be created accordingly. The test case editor is also displayed for editing.
 
-–  You can compose the test case by recording, scripting or manually entering test steps. For now, let's quickly generate the test script using **Record** feature. Click on the **Record** icon from the main Toolbar.
+–  You can compose the test case by recording, scripting or manually entering test steps. For now, let's quickly generate the test script using the **Record** feature. Click on the **Record** icon from the main Toolbar.
 
-–  Click **Record** to launch the browser. During recording, actions performed on the browser will be captured and be generated into test steps.
+–  Click **Record** to launch the browser. While recording, actions performed on the browser will be captured and generated into test steps.
 
-_Note: You can specify the target browser to be launched by selecting from the Record dropdownlist._
+_NOTE: You can specify the target browser to be launched by selecting from the Record dropdownlist._
 
-–  Let's create a simple script by going to Google Search and lookup for some keywords as illustrated on the screen above. Click **OK** of **Record** dialog when you finish recording.
+–  Let's create a simple script by going to Google Search and looking up some keywords as illustrated on the screen above. Click **OK** of **Record** dialog after you finish recording.
 
-–  You are prompted to confirm saving all captured objects to Katalon Studio. Click **OK**.
+–  You are prompted to confirm if all captured objects should be saved to Katalon Studio. Click **OK**.
 
 –  Captured actions and objects are generated in Katalon Studio.
 
-–  Now you can click on **Run** command from the main Toolbar to execute the script.
+–  Now you can click on the **Run** command from the main Toolbar to execute the script.
 
-_Note: You can specify the target browser to run the script by selecting it in the Run dropdown list._
+_NOTE: You can specify the target browser to run the script by selecting it in the Run dropdown list._
 
 Congratulations! You have just successfully created and executed your first test case.
 
