@@ -6,38 +6,38 @@ redirect_from:
   - "/index.html"
   - "/display/KD/"
 ---
-Welcome to Katalon Knowledge Base! Here you can find Katalon products manual, tips and tricks on various topics, as well as guidelines to help you create successful test automation projects.
+Welcome to Katalon Knowledge Base! Here you can find the Katalon products manual, tips and tricks on various topics, and guidelines to help you create successful test automation projects.
 
-To make the best out of Katalon Knowledge Base, we recommend you go over the documentation of each product, to get an overview of the tools you will be working with. This comprehensive documentation is the quickest way to get answers to many of your questions.
+Katalon Knowledge Base is the fastest way to get answers to many of your questions. To make the most out of this comprehensive guide, we recommend reviewing each product's documentation for a complete overview of the tools you'll be working with. 
 
 Products
 --------
 
-As test automation becomes more crucial in the technology landscape, it can be challenging to find an automation solution that is affordable, simple to set up, and comprehensive to meet a variety of automation needs.
+As test automation becomes more crucial in the technology landscape, it can be challenging to find an affordable automation solution that is simple to set up and comprehensive to meet a variety of automation needs.
 
-To address these concerns, we initially created Katalon Studio as a viable alternative to both open-source and commercial testing tools. Now we have expanded our range to a variety of products that will assist your automation testing needs.
+To address these concerns, we initially created Katalon Studio as a viable alternative to both open-source and commercial testing tools. To further assist your automation testing needs, we've expanded our range to a variety of products!
 
 | Products |          |
 |----------|----------|
-| Katalon Studio | Katalon Studio is a free and robust automation solution for API, Web, and Mobile testing. It integrates all necessary components with built-in keywords and project templates into a complete automation framework.\ Katalon Studio is easy to use for beginners but still offers advanced capabilities for experienced users. This solution is trusted by an active community of over 150K users from 150+ countries around the world. |
-| Katalon Analytics | A cloud-based application that provides in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics. |
-| Katalon Recorder | A Selenium's IDE-compatible replacement on latest Chrome and Firefox versions. Katalon Recorder records, plays, debugs, manages automated tests, and exports to C#, Java, Ruby, Python, Groovy, or Robot Framework. |
+| Katalon Studio | Katalon Studio is a free and robust automation solution for API, Web, and Mobile testing. It integrates all necessary components with built-in keywords and project templates into a complete automation framework. Katalon Studio is easy to use for beginners but still offers advanced capabilities for experienced users. Trusted by an active community of over 150K users from 150+ countries, Katalon Studio solves automation testing needs around the world. |
+| Katalon Analytics | Cloud-based application providing in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics. |
+| Katalon Recorder | Selenium's IDE-compatible replacement on latest Chrome and Firefox versions. Katalon Recorder records, plays, debugs, manages automated tests, and exports to C#, Java, Ruby, Python, Groovy, or Robot Framework. |
 
 Contribution Guidelines
 -----------------------
 
-We strongly encourage you to help improve Katalon Knowledge Base by providing feedback, suggestions, or even issues regarding our products. Below are several ways for you to contribute to Katalon documentation, including editing, requesting docs change, rating, or raising issues. Here are some suggestions:
+We strongly encourage you to help improve Katalon Knowledge Base by providing documentation feedback or suggestions along with any issues regarding our products. Below are several ways for you to contribute to Katalon documentation, including editing, requesting doc changes, rating, or raising issues. Here are some suggestions:
 
 -   Basic
 
-    - Requests for docs change due to bugs, e.g. missed item, incorrect item, or confusing content
+    - Requests for doc changes due to bugs, e.g. missed item, incorrect item, or confusing content
     - Typos or grammatical errors
 
 -   Advanced
     - Reorganizing or rewriting docs content
     - New docs about Katalon Studio features
 
-Please notice that although we very much appreciate all of your feedback, pull requests should be related to the documentation in this repository only.
+NOTE: Although we very much appreciate all of your feedback, pull requests should be related to the documentation in this repository only.
 
 ### How to contribute
 
@@ -51,16 +51,16 @@ Please notice that although we very much appreciate all of your feedback, pull r
 
     - Give feedback to the docs page by voting thumb up or thumb down.
 
-    - Write new contents for Katalon Knowledge Base. Simply fork the repository, make any modification, and send us a **Pull Request** for review.
+    - Write new content for Katalon Knowledge Base. Simply fork the repository, make any modification, and send us a **Pull Request** for review.
 
 Support
 -------
 
 ### Katalon Community
 
-For technical and product-specific questions, please post your questions to Katalon [forum](https://forum.katalon.com/discussions). We have a team of product specialists and community users to assist with your issues.
+For technical and product-specific questions, please post your questions to Katalon [forum](https://forum.katalon.com/discussions). Our team of product specialists and community users will assist with your issues.
 
 ### Business Support Service
 
-Already used Katalon Studio and looking for a long-term automation testing investment? The Katalon Team offers the Business Support Service that provides assistance for the software's issues, bug fixes, and feature requests to be considered and prioritized on our backlog.
+Already a Katalon Studio user and searching for a long-term automation testing investment? The Katalon Team offers the Business Support Service to provide assistance for software issues, bug fixes, and feature requests to be considered and prioritized on our backlog.
 For more details, check it out [here](https://www.katalon.com/support-service-options/) for pricing.
