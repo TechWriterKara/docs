@@ -1,13 +1,13 @@
 ---
-title: "Editing test cases using manual mode"
+title: "Editing Test Cases Using Manual Mode"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_test_case_using_manual_mode.html
 redirect_from:
     - "/display/KD/Test+Case+Manual+View/"
 
-description: "This tutorial will give users with less experience in programming step-by-step instruction to create an automation test case in manual mode."
+Description: "This tutorial gives users with less programming experience step-by-step instructions to create an automation test case in manual mode."
 ---
-Katalon Studio supports Keywords-Driven testing where test cases consist of keywords that represent actions of users on the AUT (Applications Under Test). This allows users with less experience in programming to easily generate automation test. The below tutorial will give you step-by-step instruction in order to create an automation test case in manual mode.
+Katalon Studio supports keywords-driven testing where test cases consist of keywords that represent actions of users on the AUT (Applications Under Test). This allows users with less programming experience to easily generate automation tests. The below tutorial gives you step-by-step instructions to create an automation test case in manual mode.
 
 Given a sample test case with the following steps:
 
@@ -31,15 +31,15 @@ Follow these steps to automate the above test scenario in **Manual view**:
 
 ![Web UI Keyword Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_manual_mode/3.-Katalon-Web-UI-keyword.png)
 
-4\. Select the [**Open Browser**](/display/KD/%5BWebUI%5D+Open+Browser) keyword. This keyword opens a browser and navigates to the specified URL if provided (the detail of a selected keyword is shown in the popup screen as shown below)
+4\. Select the [**Open Browser**](/display/KD/%5BWebUI%5D+Open+Browser) keyword. This keyword opens a browser and navigates to the specified URL if provided (the detail of a selected keyword is shown in the popup screen as shown below).
 
 ![Open Browser Keyword Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_manual_mode/4.-Katalon-Open-Brower.png)
 
-5\. Add the [**Navigate To Url**](/display/KD/%5BWebUI%5D+Navigate+to+Url) keyword. This keyword navigates to a specified URL. Double click on the **Input** cell to provide additional data (parameters) for the keyword.
+5\. Add the [**Navigate To Url**](/display/KD/%5BWebUI%5D+Navigate+to+Url) keyword. This keyword navigates to a specified URL. Double-click on the **Input** cell to provide additional data (parameters) for the keyword.
 
 ![Provide additional data](../../images/katalon-studio/tutorials/create_test_case_using_manual_mode/5.-Katalon-nagivate-to-url.png)
 
-6\. The **Input** dialog is displayed as below. Each row represents one parameter.
+6\. The **Input** dialog is displayed as below, each row representing one parameter:
 
 ![Input dialog Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_manual_mode/6.-Katalon-Input-Dialog.png)
 
@@ -76,17 +76,17 @@ Where:
     </tbody>
 </table>
 
-For now, enter the URL of Katalon demo AUT (http://demoaut.katalon.com) into the **Value** column then click **OK**.
+For now, enter the URL of Katalon demo AUT (http://demoaut.katalon.com) into the **Value** column, then click **OK**.
 
-7\. Add the [**Click**](/display/KD/%5BWebUI%5D+Click) keyword. This keyword represents a click action on a given object. You need to associate this keyword to an object. Double click on the **Object** cell to open the **Test Object Input** dialog.
+7\. Add the [**Click**](/display/KD/%5BWebUI%5D+Click) keyword, representing a click action on a given object. You need to associate this keyword to an object. Double click on the **Object** cell to open the **Test Object Input** dialog.
 
 ![click keyword Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_manual_mode/7.-Katalon-click-keywords.png)
 
-8\. All captured objects in **Object Repository** are displayed in the **Test Object Input** dialog (Refer to [Spy Object](/display/KD/Spy+Object) for details regarding how to capture objects). Select your object then click **OK**.
+8\. All captured objects in **Object Repository** are displayed in the **Test Object Input** dialog. (Refer to [Spy Object](/display/KD/Spy+Object) for details regarding how to capture objects). Select your object then click **OK**.
 
 ![Test Object Input Dialog](../../images/katalon-studio/tutorials/create_test_case_using_manual_mode/8.-Katalon-Object-Repository1.png)
 
-9\. Add the [**Verify Element Present**](/display/KD/%5BWebUI%5D+Verify+Element+Present) keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to associate this keyword with an object.
+9\. Add the [**Verify Element Present**](/display/KD/%5BWebUI%5D+Verify+Element+Present) keyword to validate if a certain object is displayed on the executing browser. Similar to the previous step, associate this keyword with an object.
 
 ![Verify element present](../../images/katalon-studio/tutorials/create_test_case_using_manual_mode/9.-Katalon-Verify-Element.png)
 
@@ -98,6 +98,6 @@ For now, enter the URL of Katalon demo AUT (http://demoaut.katalon.com) into the
 
 ![Execute test Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_manual_mode/11.-Katalon-Run.png)
 
-Katalon Studio should be able to execute all of the steps specified in the test case. Test execution results are shown in Log Viewer as below:
+Katalon Studio should be able to execute all of the steps specified in the test case. Test execution results are shown in **Log Viewer** as below:
 
 ![Log view dialog Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_manual_mode/12.-Katalon-Log-viewer-300x113.png)
