@@ -11,12 +11,12 @@ description:
 ---
 > Only **Chrome, Firefox and Remote** options are supported for console mode execution **using Linux version.**
 
-You can execute automation test without launching Katalon Studio by using command line mode execution. 
+You can execute automation tests without launching Katalon Studio by using command line mode execution. 
 
 Execute Katalon in CMD
 ----------------------
 
-1.  Open the command prompt and navigate to the folder of your Katalon Studio build, which contains katalon.exe (Windows) or Applications folder (Mac OS) or katalon (Linux) file.
+1.  Open the command prompt and navigate to the folder of your Katalon Studio build, which contains katalon.exe (Windows), Applications folder (Mac OS), or katalon (Linux) file.
 
 2.  Enter the following syntax to execute automation test:
 
@@ -43,12 +43,12 @@ Execute Katalon in CMD
     ![](../../images/katalon-studio/docs/console-mode-execution/image2016-4-6-133A153A3.png)
 
 
-3.  Press Enter to start execution.
+3.  Press **Enter** to start execution.
 
 Katalon Studio Plugins in Console Mode
 --------------------------------------
 
-In order to be used in console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
+To use console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
 
 General Options 
 ---------------
@@ -126,7 +126,7 @@ Here's the list of options supported for the "_katalon_" command:
       </tr>
       <tr>
          <td>-retryFailedTestCases=&lt;true, false&gt;</td>
-         <td>Retry failed test cases fail in test suite ( override setting in test suite file ). There are 2 options for retry: true if you want run fail test case and otherwise false</td>
+         <td>Retry failed test cases fail in test suite (override setting in test suite file). There are 2 options for retry: true if you want run fail test case and otherwise false</td>
          <td>N</td>
       </tr>
       <tr>
@@ -136,12 +136,12 @@ Here's the list of options supported for the "_katalon_" command:
       </tr>
       <tr>
          <td>-reportFileName=&lt;name&gt;</td>
-         <td>Specify the name for report files (.html, .csv, .log). If not provide, system uses the name "report" (report.html, report.csv, report.log). This option is only taken into account when being used with "-reportFolder" option.</td>
+         <td>Specify the name for report files (.html, .csv, .log). If not provided, system uses the name "report" (report.html, report.csv, report.log). This option is only taken into account when being used with "-reportFolder" option.</td>
          <td>N</td>
       </tr>
       <tr>
          <td>-sendMail=&lt;e-mail address&gt;</td>
-         <td>Specify the e-mail address for receiving report files. If the e-mail address was not specified, the report files will not be sent.</td>
+         <td>Specify the e-mail address for receiving report files. If the e-mail address is not specified, the report files will not be sent.</td>
          <td>N</td>
       </tr>
       <tr>
@@ -199,12 +199,12 @@ Windows-Only Options
    <tbody>
       <tr>
          <td>-consoleLog</td>
-         <td>Display log in the console. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools e.g. Jenkins.</td>
+         <td>Display log in the console. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools, e.g. Jenkins.</td>
          <td>N</td>
       </tr>
       <tr>
          <td>-noExit</td>
-         <td>Keep the console open after the execution is completed. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools e.g. Jenkins.</td>
+         <td>Keep the console open after the execution is completed. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools, e.g. Jenkins.</td>
          <td>N</td>
       </tr>
    </tbody>
@@ -285,12 +285,12 @@ Integration Options
       </tr>
       <tr>
          <td>-qTestDestId=&lt;destination's id&gt;</td>
-         <td>Id of the destination where the result will be uploaded on it</td>
+         <td>Destination ID where the result will be uploaded</td>
          <td>N</td>
       </tr>
       <tr>
          <td>-qTestDestType=&lt;destination's type&gt;</td>
-         <td>Type of the destination. There are 4 options for destination's type:"test-suite", "test-cycle", &nbsp;"release", and "root".</td>
+         <td>Type of destination. There are 4 options for destination's type:"test-suite", "test-cycle", &nbsp;"release", and "root".</td>
          <td>N</td>
       </tr>
    </tbody>
@@ -311,7 +311,7 @@ You can quickly generate commands to use in console mode by following the steps 
 
     <table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td>Test Suite</td><td>The Test Suite or Test Suite Collection to be executed</td></tr><tr><td>Executed Platform</td><td><p>The platform to execute the test on. Select an environment</p><p><img src="../../images/katalon-studio/docs/console-mode-execution/image2018-2-9-123A13A31.png"></p><p>&nbsp;</p></td></tr><tr><td>Other Options</td><td><p><img src="../../images/katalon-studio/docs/console-mode-execution/image2017-2-17-163A193A15.png"></p></td></tr></tbody></table>
 
-3.  Click **Generate Command** after you're done with the configuration.
+3.  Click **Generate Command** after the configuration is complete.
     ![](../../images/katalon-studio/docs/console-mode-execution/image2017-2-17-173A153A41.png)
 
 
